@@ -3,22 +3,22 @@
 Display the following under current weather conditions:
 
 
-City
+* City
 
 
-Date
+* Date
 
 
-Icon image (visual representation of weather conditions)
+* Icon image (visual representation of weather conditions)
 
 
-Temperature
+* Temperature
 
 
-Humidity
+* Humidity
 
 
-Wind speed
+* Wind speed
 
 
-UV index
+* UV index
