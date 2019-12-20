@@ -26,3 +26,12 @@ $(document).ready(function () {
         }
     }
     
+    function showForecast(data) {
+        var forecast = data.list;
+        // test for connection
+        console.log("DATALIST", data.list);
+       
+        var currentForecast = [];
+        for (var i = 0; i < forecast.length; i++) {
+
+            var currentObject = forecast[i]
