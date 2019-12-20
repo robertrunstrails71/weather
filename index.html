@@ -8,7 +8,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <nav id = "navBar" class="navbar">
-        <span id = "navText" class="navbar-brand mb-0 h1">Weather Dashboard</span>
-    </nav>
-</head>
+    
+        <title>Weather Dashboard</title>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <h1>Weather Dashbord</h1>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-sm-4 searArea">
+                <h3>Search for a City:</h3>
+                <span id="error"></span>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" id="city" placeholder="Search" aria-label="Search">
+                    <button type="button" id="submitCity" class="btn
+                      btn-primary" type=submit>Search</button>
+    </form>
