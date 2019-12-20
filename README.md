@@ -28,13 +28,13 @@ Include a search history so that users can access their past search terms. Click
 Include a 5-Day Forecast below the current weather conditions. Each day for the 5-Day Forecast should display the following:
 
 
-Date
+* Date
 
 
-Icon image (visual representation of weather conditions)
+* Icon image (visual representation of weather conditions)
 
 
-Temperature
+* Temperature
 
 
-Humidity
+* Humidity
