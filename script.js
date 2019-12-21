@@ -1,4 +1,4 @@
-var APIkey= "7035bbd87f29595c295712a11e5669aa";
+
 $(document).ready(function () {
     
     //FUNCTION
@@ -13,6 +13,7 @@ $(document).ready(function () {
     <p><strong>Wind Speed</strong>: ${data.wind.speed} MPH</p>
     <p><strong>UV Index</strong>:${data.coord.lat, data.coord.lon}</p>
     `
+    }
     function displayCities(cityList) {
         $('.city-list').empty();
         var list = localStorage.getItem("cityList");
@@ -79,13 +80,13 @@ $(document).ready(function () {
     }
     
     $('#submitCity').click(function (event) {
-        // test submit button
+        
         console.log("submited");
         event.preventDefault();
         var city = $('#city').val();
         var lat = 0;
         var lon = 0;
-        // push city to cityList array
+        
         cityList.push(city);
        
         localStorage.setItem("cityList", JSON.stringify(cityList));
@@ -111,7 +112,7 @@ $(document).ready(function () {
                 }
             });
 
-          
+           
             $.ajax({
                 url:`https://api.openweathermap.org/data/2.5/uvi?appid=7035bbd87f29595c295712a11e5669aa=${lat}&lon=${lon}`,
                 type: "GET",
@@ -126,5 +127,9 @@ $(document).ready(function () {
         }
     });
 
-        displayCities(cityList);
-    });
+    displayCities(cityList);
+
+});
+
+                
+                    
