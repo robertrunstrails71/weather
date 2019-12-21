@@ -40,4 +40,4 @@ Include a 5-Day Forecast below the current weather conditions. Each day for the 
 * Humidity
 
 
-![image](https://user-images.githubusercontent.com/55112279/71301125-2bb05e00-2361-11ea-893c-b75605e27e29.png)
+
